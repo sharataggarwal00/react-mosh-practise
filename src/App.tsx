@@ -1,8 +1,11 @@
-import Message from "./Message"
+import ListGroup from "./components/ListGroup"
 
 function App() {
   return <div>
-    <Message />
+    <ListGroup
+      heading={"Venues for GP"} 
+      items={[ "Australia", "China", "Japan", "Austria", "Great Britain", "Azerbaijaan"]}
+    />
   </div>
 }
 
